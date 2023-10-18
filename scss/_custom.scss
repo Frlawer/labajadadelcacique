@@ -1,0 +1,26 @@
+/*=================== Custom start ====================*/
+// letra menu
+.header-area {
+    .main-header-area {
+        .main-menu {
+            ul {
+                li{
+                    a{
+                        text-shadow:-1px 1px .1em #000;
+                    }
+                }
+            } 
+        }
+        
+    }
+}
+// letra slider
+.slider_area{
+    .single_slider{
+        .slider_text{
+            h3{
+                text-shadow: -1px 1px .1em black;
+            } 
+        }
+    } 
+}
