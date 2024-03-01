@@ -21,7 +21,9 @@
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
-
+        @media #{$mobile_device} {
+            height: 40vh;
+        }
         .slider_text{
             h3{
              color: #ffffff;
