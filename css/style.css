@@ -1,5 +1,4 @@
 ﻿@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap";
-@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap";
 
 /* Fuente personalizada AmazingKids */
 @font-face {
@@ -775,27 +774,19 @@ h3 {
 .slider_bg_1 {
   background-image: url(../img/001.webp);
 }
-@media (max-width: 767px) {
-  .slider_bg_1 {
-    background-size: 100% 100% !important;
-  }
-}
 .slider_bg_2 {
   background-image: url(../img/002.webp);
-}
-@media (max-width: 767px) {
-  .slider_bg_2 {
-    background-size: 100% 100% !important;
-  }
 }
 .slider_bg_3 {
   background-image: url(../img/003.webp);
 }
 @media (max-width: 767px) {
-  .slider_bg_3 {
-    background-size: 100% 100% !important;
+  .slider_bg_1, .slider_bg_2, .slider_bg_3 {
+    background-size: cover !important;
+    background-position: center left !important;
   }
 }
+
 .slider_area .single_slider {
   height: 100vh;
   background-size: cover;
