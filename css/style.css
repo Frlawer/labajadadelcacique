@@ -169,7 +169,7 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 .overlay2 {
   position: relative;
@@ -772,7 +772,7 @@ h3 {
   padding: 0;
 }
 .slider_bg_1 {
-  background-image: url(../img/001.webp);
+  background-image: url(../img/012.webp);
 }
 .slider_bg_2 {
   background-image: url(../img/002.webp);
@@ -1106,7 +1106,7 @@ h3 {
   transform: scale(1.1);
 }
 .video_bg {
-  background-image: url(../img/extra/img-fb001.jpg);
+  background-image: url(../img/013.webp);
 }
 .video_area {
   height: 90vh;
