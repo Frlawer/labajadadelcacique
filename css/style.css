@@ -788,8 +788,7 @@ h3 {
 }
 
 .slider_area .single_slider {
-  height: 60vh;
-  margin-top: 15vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -807,6 +806,10 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     font-size: 5em;
     letter-spacing: 3px;
+  }
+  .slider_area .single_slider{
+    height: 60vh;
+    margin-top: 20vh;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
