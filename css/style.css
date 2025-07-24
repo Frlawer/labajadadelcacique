@@ -816,11 +816,19 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
   }
+  .slider_area .single_slider{
+    height: 60vh;
+    margin-top: 20vh;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text h3 {
     font-size: 35px;
     letter-spacing: 3px;
+  }
+  .slider_area .single_slider{
+    height: 60vh;
+    margin-top: 20vh;
   }
 }
 .slider_area .single_slider .slider_text p {
