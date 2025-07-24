@@ -788,7 +788,8 @@ h3 {
 }
 
 .slider_area .single_slider {
-  height: 100vh;
+  height: 60vh;
+  margin-top: 15vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
